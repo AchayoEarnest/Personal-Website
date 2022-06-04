@@ -4,10 +4,17 @@
     box-sizing: 0;
 }
 
+body {
+    background-color: rgb(56, 54, 54);
+}
+
 header {
     background-color: black;
     color: white;
     height: 80px;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -69,15 +76,52 @@ li > a:hover {
 
 main {
     background-color: rgb(235, 227, 227);
-    height: 90vh;
+    height: 100vh;
+    padding-bottom: 20px;
 }
 #main_section_a {
     height: 100%;
+    
 }
 
 #main_section_b {
+    height: 500px;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+#main_section_c {
     height: 100%;
     margin-top: 20px;
+    background-image: url(../images/pexels-lukas-574077.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+#sect_b_container {
+    border-radius: 10px;
+    margin: 50px;
+    padding-top: 30px;
+    background-color: blue;
+    height: 90%;
+    text-align: center;   
+}
+
+#sect_b_content {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#sect_b_content > p{
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+}
+
+#sections_component_container {
+    height: 100%;
 }
 
 .my_info {
@@ -94,7 +138,7 @@ main {
     height: 100%;
 }
 
-.my_image > img {
+.my_image >  img {
     height: 100%;
     width: 100%;
     object-fit: cover;
