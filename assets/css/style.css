@@ -42,7 +42,7 @@ header {
     padding-left: 200px;
 }
 
-#section-c > li > img {
+#section-c > li > a > img {
     height: 40px;
 }
 
@@ -53,13 +53,31 @@ li {
 
 li > a {
     text-decoration: none;
-    color: white;
+    color: rgb(240, 219, 219);
+    list-style: none;
+}
+li > a:hover {
+    text-decoration: underline;
+    color: rgb(253, 155, 7);
     list-style: none;
 }
 
+#logo {
+    height: 60px;
+    border-radius: 50%;
+}
+
 main {
-    background-color: rgb(243, 237, 237);
+    background-color: rgb(235, 227, 227);
     height: 90vh;
+}
+#main_section_a {
+    height: 100%;
+}
+
+#main_section_b {
+    height: 100%;
+    margin-top: 20px;
 }
 
 .my_info {
@@ -71,12 +89,12 @@ main {
     width: 50%;
     height: 100%;
     display: inline-block;
-    float:right;
+    float: right;
     object-fit: cover;
     height: 100%;
 }
 
-.my_image >img {
+.my_image > img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -85,8 +103,9 @@ main {
 
 #same_font {
     margin-top: 30%;
-    font-size: 50px;
+    font-size: 80px;
     padding-left: 20px;
+    color: rgb(253, 155, 7);
 }
 
 #same_font2 {
@@ -99,6 +118,7 @@ main {
     padding-left: 20px;
     margin-top: 50px;
     padding-right: 15px;
+    color: rgb(78, 78, 78);
 }
 
 
