@@ -65,7 +65,7 @@ li > a {
 }
 li > a:hover {
     text-decoration: underline;
-    color: rgb(253, 155, 7);
+    color: rgb(255, 145, 0);
     transition: all 0.3s ease;
     
 }
@@ -115,7 +115,7 @@ main {
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 50px;
-    color: rgb(253, 155, 7);
+    color: rgb(255, 145, 0);
 }
 
 
@@ -161,7 +161,7 @@ main {
     margin-top: 30%;
     font-size: 80px;
     padding-left: 20px;
-    color: rgb(253, 155, 7);
+    color: rgb(255, 145, 0);
 }
 
 #same_font2 {
@@ -205,21 +205,32 @@ main {
     display: flex;
 }
 .form_container > #form_1 > input {
-    width: 80%;
+    width: 95%;
     height: 50px;
     margin-bottom: 5px;
+    border-radius: 10px;
 }
 .form_container > #form_2 > input {
     width: 100%;
-    height: 100%;
+    height: 95%;
     margin-bottom: 5px;
     padding-top: 0;
+    border-radius: 10px;
 }
 
 #form_2 {
     width: 50%;
 }
 
+.submit_btn {
+    background-color: rgb(255, 145, 0);
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border-style: 1px;
+}
+
 footer {
     height: 500px;
+    
 }
