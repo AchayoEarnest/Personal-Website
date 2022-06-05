@@ -107,7 +107,7 @@ main {
     border-radius: 10px;
     margin: 50px;
     padding-top: 30px;
-    background-color: blue;
+    background-color: rgb(235, 227, 227);
     height: 90%;
     text-align: center;   
 }
@@ -124,7 +124,7 @@ main {
 #sect_b_content > p{
     margin-top: 50px;
     font-size: 20px;
-    color: white;
+    color: black;
 }
 
 #sect_d_content {
