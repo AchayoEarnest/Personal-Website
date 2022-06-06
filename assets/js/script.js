@@ -1,8 +1,14 @@
+var messages  = document.getElementById("messages");
+var textbox = document.getElementById("textbox");
+var button = document.getElementById("button");
 
-let btnEl = document.getElementsByClassName("submit_btn");
 
+button.addEventListener("click", function(){
+    var newMessage = document.createElement("li");
+    newMessage.innerHTML = textbox.value;
+    messages.appendChild(newMessage);
+    textbox.value = "";
 
+    
+})
 
-function callFunction(){
-    alert("our Message has been received. Thank you for contacting Earnest! I will get back to you asap!")
-}

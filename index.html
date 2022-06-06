@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-
     <title>Earnest Portfolio Site</title>
 
 </head>
@@ -95,13 +94,27 @@
                             <input type="number" placeholder="Phone Number" required>
                         </div>
                         <div id="form_2">
-                            <input type="text" placeholder="Message">
-                            <button type="submit" class="submit_btn" onclick="callFunction">Submit</button>
+                            <input type="text" placeholder="Message" id="textbox">
+                            <button type="submit" class="submit_btn" id="submit" onclick="callFunction">Submit</button>
                         </div>
                     </div>
                     
                 </div>                  
             </div>
+            <div id="main_section_e">
+                <div id="sect_b_container">
+                    <div id="sect_b_content">
+                        <h1>GET IN TOUCH</h1> 
+                        <div class="message_container">
+                            <div id="form_2">
+                                <ul id="messages">
+
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>                  
+                </div>
 
             <footer id="footer_section">
                 <div class="footer_flex_container">
@@ -127,9 +140,7 @@
                 </div>
                 <div class="end_note" style="color: white; margin-top: 100px; text-align: center;"><p>© 2022 Earnest Achayo. All rights reserved.</p></div>                
             </footer>
-        </div> 
-        
-
+        </div>
     </div> 
     </main>
     <script src="./assets/js/script.js"></script>

@@ -1,7 +1,9 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 body {
@@ -46,7 +48,7 @@ header {
     align-items: center;
     width: 15%;
     float: right;
-    padding-left: 200px;
+    padding-left: 80px;
 }
 
 #section-c > li > a > img {
@@ -232,7 +234,7 @@ main {
 }
 
 #footer_section {
-    height: 400px;
+    height: 425px;
     background-color: black;
     padding-top: 50px;
 }
@@ -250,3 +252,8 @@ main {
 
 }
 
+message_container{
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+}
