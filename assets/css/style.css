@@ -144,19 +144,12 @@ main {
 
 #card_content {
     text-align: center;
-    color: rgb(255, 145, 0);
+    color: black;
 }
 #card_content > p {
     margin-top: 10px;
 }
 
-.ask_now {
-    margin-top: 10px;
-    width: 100px;
-    height: 30px;
-    border-radius: 7px;
-    border-width: 1px;
-}
 
 .ask_now:hover {
     background-color: blue;
@@ -167,6 +160,7 @@ main {
 #sect_b_container {
     border-radius: 10px;
     margin: 50px;
+    padding-bottom: 20px;
     padding-top: 30px;
     background-color: rgb(235, 227, 227);
     height: 90%;
@@ -176,14 +170,14 @@ main {
 #sect_b_content {
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 50px;
+    margin-top: 40px;
     color: rgb(255, 145, 0);
 }
 
 
 
 #sect_b_content > p{
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 20px;
     color: black;
 }
@@ -191,7 +185,7 @@ main {
 #sect_d_content {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #sections_component_container {
@@ -296,6 +290,11 @@ main {
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
     border-style: 1px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    border-width: 1px;
 }
 
 #footer_section {

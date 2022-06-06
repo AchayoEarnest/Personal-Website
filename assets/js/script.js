@@ -4,11 +4,6 @@ var button = document.getElementById("button");
 
 
 button.addEventListener("click", function(){
-    var newMessage = document.createElement("li");
-    newMessage.innerHTML = textbox.value;
-    messages.appendChild(newMessage);
-    textbox.value = "";
-
-    
+    window.alert("Thank you for sending me your message. I will get back to you asap!")    
 })
 
