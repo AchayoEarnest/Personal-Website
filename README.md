@@ -44,4 +44,4 @@ Or you can access the web application directly via this [LINK.](https://achayoea
 *****
 ## [License](LICENSE)
 MIT License
-Copyright (c) YEAR Author
+Copyright (c) 2022 Author
