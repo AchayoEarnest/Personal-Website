@@ -7,7 +7,8 @@ This is a portfolio website about me. I contains information about me including 
 ******
 
 ## SCREENSHOTS
-
+ ![image](./assets/images/portfolio%201.png)
+ ![image](./assets/images/Potfolio%20pg3.png)
 
 
 ********
